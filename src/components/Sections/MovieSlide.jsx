@@ -28,6 +28,12 @@ const CategoriesSlides = ({ title, slides, showViewAll=true }) => {
             640: {
               perPage: 3,
             },
+            900: {
+              perPage: 4
+            },
+            1140: {
+              perPage: 5
+            }
           },
         }}
         className=" my-4"

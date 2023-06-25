@@ -37,8 +37,8 @@ const Hero = ({ data }) => {
               className="w-full h-full object-cover  aspect-video "
             />
             <div className="absolute h-40 bg-gradient-to-t from-black to-transparent  w-full bottom-0 p-4 py-8 flex gap-4 items-end  text-white">
-              <div className="flex items-center gap-4">
-              <button className="h-10 w-10 bg-brand-primary rounded-full grid place-content-center">
+              <div className="flex items-center  gap-4">
+              <button className="h-10  w-10 bg-brand-primary rounded-full grid place-content-center">
               <Image
               src={'/play.svg'}
               width={25}
